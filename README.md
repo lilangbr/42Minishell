@@ -40,6 +40,9 @@ foreground pipeline.<br/>
 - env with no options or arguments
 - exit with no options
 
+## Demo:
+
+![mini](./mini.png)
 
 ## Use:
 
@@ -64,6 +67,6 @@ foreground pipeline.<br/>
 42Minishell $ ./minishell
 ```
 
-![mini](./mini.png)
+
 
 Enjoy!<br/>

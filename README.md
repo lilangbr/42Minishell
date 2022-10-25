@@ -42,7 +42,7 @@ foreground pipeline.<br/>
 
 ## Demo:
 
-![mini](./mini.png)
+![mini](./demo.png)
 
 ## Use:
 

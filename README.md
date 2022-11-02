@@ -6,8 +6,9 @@ Yes, a little bash. Here you´ll see about processes and file descriptors.
 ## How it works?
 ![hiw](./howitworks.png)
 
-Basically, the shell waits for commands to execute, in a loop known as REPL(Read, Evaluate, Print Loop).
-The command is entered by a string in the terminal, then the lexical analysis is performed, where the fragments with sense are identified in the bash context, then the syntactic analysis is performed, where the sense is validated and interpreted, and then, the command is executed. Of course, each step deals with its pertinent errors.
+Basically, the shell waits for commands to execute, in a **loop** known as REPL(Read, Evaluate, Print Loop).
+The command is entered by a string in the terminal, then the lexical analysis is performed, where the fragments with sense are identified in the bash context, then the syntactic analysis is performed, where the sense is validated and interpreted, and then, the command is executed. Of course, each step deals with its pertinent errors.</br>
+The loop can be broken by signals (software interrupt), such as "Ctrl + C" on the keyboard. Minishell supports functions for handling these interrupt signals.
 
 
 ## Contents:

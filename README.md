@@ -2,6 +2,14 @@
 The existence of shells is linked to the very existence of IT. At the time, all developers agreed that communicating with a computer using aligned 1/0 switches was seriously irritating. It was only logical that they came up with the idea of creating a software to communicate with a computer using interactive lines of commands in a language somewhat close to the human language. Thanks to Minishell, we’ll be able to travel through time and come back to problems people faced when Windows didn’t exist.<br/><br/>
 This project is about creating a simple shell.
 Yes, a little bash. Here you´ll see about processes and file descriptors.
+
+## How it works?
+![hiw](./howitworks.png)
+
+Basically, the shell waits for commands to execute, in a loop known as REPL(Read, Evaluate, Print Loop).
+The command is entered by a string in the terminal, then the lexical analysis is performed, where the fragments with sense are identified in the bash context, then the syntactic analysis is performed, where the sense is validated and interpreted, and then, the command is executed. Of course, each step deals with its pertinent errors.
+
+
 ## Contents:
 ✔ A prompt when waiting for a new command.<br/>
 ✔ Have a working history.<br/>
